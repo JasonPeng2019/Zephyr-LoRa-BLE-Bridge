@@ -1,0 +1,12 @@
+{
+  "board_id": "board_b",
+  "closed_at": null,
+  "connection_id": "probe:683854191",
+  "created_at": "2026-07-22T20:09:44.156714Z",
+  "event_count": 27,
+  "log_path": "C:\\Users\\Jason\\Documents\\Jason\\FirmCLI_Tester\\Firmware-2\\.firm\\runs\\20260722T200944Z-05b84a3b\\logs\\events.jsonl",
+  "probe_uid": "683854191",
+  "recover_completed": false,
+  "route_used": "pyocd-native",
+  "session_id": "20260722T200944Z-05b84a3b"
+}

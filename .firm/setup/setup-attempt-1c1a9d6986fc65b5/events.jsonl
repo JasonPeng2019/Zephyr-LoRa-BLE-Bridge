@@ -1,0 +1,4 @@
+{"code":"setup/input-verified","phase":"input","recorded_at":"2026-07-22T17:42:44.285401Z","state":"verified"}
+{"code":"setup/live-preflight-complete","phase":"preflight","recorded_at":"2026-07-22T17:42:44.291398Z","state":"verified"}
+{"code":"setup/selections-resolved","phase":"selection","recorded_at":"2026-07-22T17:42:44.295422Z","state":"verified"}
+{"code":"setup/no-exact-target","phase":"target_resolution","recorded_at":"2026-07-22T17:42:44.298391Z","state":"unverified"}

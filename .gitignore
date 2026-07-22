@@ -1,0 +1,6 @@
+build*/
+build-*/
+doc_extract_tmp/
+modules/lora-basics-modem/
+*.pyc
+__pycache__/

@@ -1,0 +1,39 @@
+packs:
+- id: NordicSemiconductor::nRF_DeviceFamilyPack
+  version: 8.40.3
+  filename: NordicSemiconductor.nRF_DeviceFamilyPack.8.40.3.pack
+  url: https://developer.nordicsemi.com/nRF5_SDK/pieces/nRF_DeviceFamilyPack/NordicSemiconductor.nRF_DeviceFamilyPack.8.40.3.pack
+  sha256: 8da5332426c8b699110296e0ed076bd5c86bc5d8b06171474babc15f008c3d25
+  provides_targets:
+  - nrf51422_xxaa
+  - nrf51422_xxab
+  - nrf51422_xxac
+  - nrf51801_xxab
+  - nrf51802_xxaa
+  - nrf51822_xxaa
+  - nrf51822_xxab
+  - nrf51822_xxac
+  - nrf51824_xxaa
+  - nrf52805_xxaa
+  - nrf52810_xxaa
+  - nrf52811_xxaa
+  - nrf52820_xxaa
+  - nrf52832_xxaa
+  - nrf52832_xxab
+  - nrf52833_xxaa
+  - nrf52840_xxaa
+  - nrf5340_xxaa
+  - nrf9160_xxaa
+  needed_by_boards:
+  - board_a
+  device_bindings:
+  - part_number: nRF52840-QIAA
+    pdsc_device: nRF52840_xxAA
+    pyocd_target: nrf52840_xxaa
+    identity_proof:
+      capability: compatible
+      address: 3758157056
+      expected: 49728
+      mask: 65520
+      width_bits: 32
+      label: Cortex-M4 CPUID compatibility identity

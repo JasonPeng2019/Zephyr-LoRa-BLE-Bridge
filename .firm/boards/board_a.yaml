@@ -1,0 +1,47 @@
+board_id: board_a
+display_name: Board A
+mcu_part_number: nRF52840-QIAA
+mcu_family: nrf52840qiaa
+probe_family: jlink
+pyocd_target: nrf52840_xxaa
+serial_baudrate: 115200
+schema_version: 2
+created_at: '2026-07-22T17:44:19.969400Z'
+updated_at: '2026-07-22T17:44:32.235459Z'
+probe_type: SEGGER J-Link
+probe_hint_terms:
+- board
+- j-link
+- jlink
+- nrf52840
+- nrf52840qiaa
+- segger
+- xxaa
+serial_hint_terms:
+- board
+- j-link
+- jlink
+- nrf52840
+- nrf52840qiaa
+- segger
+- virtual com
+- xxaa
+requires_recover_validation: false
+test_read_address: 0
+datasheet_sha256: c619e336b9c0610663273041f057f2537a65fd408ce0c5b8214a26de2aa88422
+datasheet_ref: .firm/evidence/datasheets/c619e336b9c0610663273041f057f2537a65fd408ce0c5b8214a26de2aa88422.pdf
+device_support:
+  kind: resolved_pack
+  support_id: 40d553eb02e8843b72cb056396f9477f4754064abd4aae785435345ae78891c2
+  pack_id: NordicSemiconductor::nRF_DeviceFamilyPack
+  pack_filename: NordicSemiconductor.nRF_DeviceFamilyPack.8.40.3.pack
+  pack_sha256: 8da5332426c8b699110296e0ed076bd5c86bc5d8b06171474babc15f008c3d25
+  pdsc_device: nRF52840_xxAA
+  pyocd_target: nrf52840_xxaa
+silicon_id_address: 3758157056
+silicon_id_expected: 49728
+silicon_id_mask: 65520
+silicon_id_width_bits: 32
+silicon_id_label: Cortex-M4 CPUID compatibility identity
+debug_connect_mode: attach
+safety_ref: .firm/safety/board_a/memory_map.yaml
